@@ -158,14 +158,3 @@ window.addEventListener("mousemove", (e) => {
     element.style.transform = `translate(${x}px, ${y}px)`
   })
 })
-
-// Add hover effect to navbar links
-document.querySelectorAll(".navbar-link").forEach((link) => {
-  link.addEventListener("mouseenter", function () {
-    this.style.color = "var(--accent)"
-  })
-
-  link.addEventListener("mouseleave", function () {
-    this.style.color = "var(--light)"
-  })
-})
