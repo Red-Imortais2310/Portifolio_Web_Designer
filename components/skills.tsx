@@ -37,10 +37,10 @@ export function Skills() {
     <section id="habilidades" className="py-24 md:py-32 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
             Habilidades
           </h2>
-          <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
+          <div className="h-1 w-20 bg-linear-to-r from-primary to-accent mx-auto rounded-full" />
         </div>
 
         <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -52,7 +52,7 @@ export function Skills() {
               }`}
             >
               <div className="bg-card border border-border rounded-2xl p-8 h-full hover:scale-105 transition-transform hover:border-primary/50">
-                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${skill.color} p-3 mb-6`}>
+                <div className={`w-16 h-16 rounded-xl bg-linear-to-br ${skill.color} p-3 mb-6`}>
                   <skill.icon className="w-full h-full text-white" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">{skill.title}</h3>
